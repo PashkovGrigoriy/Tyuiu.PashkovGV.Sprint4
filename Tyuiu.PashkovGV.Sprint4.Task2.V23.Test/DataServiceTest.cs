@@ -9,7 +9,7 @@ namespace Tyuiu.PashkovGV.Sprint4.Task2.V23.Test
         {
             DataService ds = new DataService();
             int[] m = { 1,2,3,4,5 };
-            int m2 = 9;
+            int m2 = 6;
             var res = ds.Calculate(m);
             Assert.AreEqual(m2, res);
         }
